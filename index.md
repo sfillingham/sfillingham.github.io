@@ -1,11 +1,13 @@
-## Research Interests
+# Astrophysics Research
+
+## Interests
 galaxy evolution, quenching, star formation, environmental effects,
 large surveys, spectroscopy, galaxy formation, reionization
 
 Generally my research interests focus on galaxy evolution. More
-specifically I am interested how the environment surround a massive
+specifically I am interested how the environment surrounding a massive
 galaxy modifies the properties of the satellite galaxies orbiting
-within the hosts' dark matter halo.
+within the hosts' dark matter halo. 
 
 To this end, I compare the properties of the observed satellites to
 various models built on top of the cosmological simulations.
