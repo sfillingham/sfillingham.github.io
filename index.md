@@ -17,10 +17,12 @@ galaxy groups.
 
 2. _Under pressure: quenching star formation in low-mass satellite
 galaxies via stripping_
+
 **Fillingham, S. P.**, Cooper, M. C., Pace A. B., et al (2016) MNRAS
 
 1. _Taking care of business in a flash: constraining the time-scale for
 low-mass satellite quenching with ELVIS_
+
 **Fillingham, S. P.**, Cooper, M. C., Wheeler C., et al (2015) MNRAS
 
 
