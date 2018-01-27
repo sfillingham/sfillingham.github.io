@@ -1,5 +1,3 @@
-## Astrophysics Research
-
 ### About Me
 Currently I am a fifth year physics PhD candidate at UC Irvine working
 under the supervision of
