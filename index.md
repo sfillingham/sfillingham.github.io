@@ -1,3 +1,5 @@
+![](DSC00861.jpg)
+
 ### About Me
 Currently I am a fifth year physics PhD candidate at UC Irvine working
 with [Michael Cooper](http://localgroup.ps.uci.edu/cooper/index.html).
