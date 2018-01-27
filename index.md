@@ -1,7 +1,6 @@
 ### About Me
 Currently I am a fifth year physics PhD candidate at UC Irvine working
-under the supervision of
-[Michael Cooper](http://localgroup.ps.uci.edu/cooper/index.html).
+with [Michael Cooper](http://localgroup.ps.uci.edu/cooper/index.html).
 I also collaborate with
 [James Bullock](https://www.physics.uci.edu/~bullock/), the
 [Local Group](http://localgroup.ps.uci.edu), and
