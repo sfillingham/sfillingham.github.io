@@ -25,19 +25,16 @@ galaxy groups.
 
 _**Discovery and Follow-up Observations of the Young Type Ia Supernova
 2016coj**_
-
-WeiKang, Z., Filippenko, A. V., Mauerhan, J., **et al** (2017) ApJ 841 64
+- WeiKang, Z., Filippenko, A. V., Mauerhan, J., **et al** (2017) ApJ 841 64
 
  _**Under pressure: quenching star formation in low-mass satellite
  galaxies via stripping**_
- 
-**Fillingham, S. P.**, Cooper, M. C., Pace A. B., et al (2016) MNRAS
+- **Fillingham, S. P.**, Cooper, M. C., Pace A. B., et al (2016) MNRAS
 463 1916
 
 _**Taking care of business in a flash: constraining the time-scale for
 low-mass satellite quenching with ELVIS**_
-
-**Fillingham, S. P.**, Cooper, M. C., Wheeler C., et al (2015) MNRAS
+- **Fillingham, S. P.**, Cooper, M. C., Wheeler C., et al (2015) MNRAS
 454 2039
 
 
