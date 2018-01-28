@@ -1,4 +1,4 @@
-![](DSC00861.jpg)
+![](DSC00861.jpg | width=100)
 
 ### About Me
 Currently I am a fifth year physics PhD candidate at UC Irvine working
