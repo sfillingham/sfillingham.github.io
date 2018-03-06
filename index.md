@@ -38,10 +38,10 @@ have regarding my work.
 _**The Evolution of Environmental Quenching Timescales to z~1.6: Evidence for Dynamically-Drive Quenching
 of the Cluster Galaxy Population**_
 - Foltz, R., Wilson, G., Muzzin, A., **[et
-  al.]** (under review) ApJ
+  al.]()** (under review) ApJ
 
 _**Environmental Quenching of Low-Mass Field Galaxies**_
-- **[Fillingham, S. P.]**, Cooper, M. C., Boylan-Kolchin, M., et
+- **[Fillingham, S. P.]()**, Cooper, M. C., Boylan-Kolchin, M., et
   al. (under review) MNRAS
 
 _**Discovery and Follow-up Observations of the Young Type Ia Supernova
