@@ -13,7 +13,7 @@ specifically I am interested in how the environment surrounding a massive
 galaxy modifies the properties of the satellite galaxies orbiting
 within the hosts' dark matter halo. 
 
-Much of my time has been leading the design, data reduction, and
+Much of my time has been spent leading the design, data reduction, and
 analysis of a Keck/DEIMOS survey of low-mass galaxies in the vicinity of
 galaxy groups at intermediate redshift.
 This study aims to pull together a spectroscopically complete catalog of 
