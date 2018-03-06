@@ -19,15 +19,8 @@ galaxy groups at intermediate redshift (z~0.8).
 This study aims to pull together a spectroscopically complete catalog of 
 satellite galaxies down to log(Mstar) ~ 9.0 Msun around approximately 20 
 groups.
-This catalog will allow us to constrain the environmental quenching timescales
-in Magellanic Cloud-like satellites. Combining these measurements with similar 
-measurements in the SDSS (z~0) will allow us to also constrain the
-evolution in the environmental quenching timescales across roughly half of 
-cosmic time.
-These constraints will allow us to further constrain the physical mechanisms 
-responsible for shutting down star formation in satellite galaxies.
 
-Additionally, much of my published work to date has been putting together 
+All of my published work to date has been putting together 
 a coherent model for environmental quenching around Milky Way-like hosts out
 to ~2 Rvir assuming the distribution of satellite galaxies around the Milky
 Way and M31 are a respresentative sample.
