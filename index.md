@@ -9,24 +9,28 @@ I also collaborate with
 [LAMP2016](https://www.physics.uci.edu/~barth/lamp.html).
 
 Generally my research interests focus on galaxy evolution. More
-specifically I am interested in how the environment surrounding a massive
+specifically, I am interested in how the environment surrounding a massive
 galaxy modifies the properties of the satellite galaxies orbiting
-within the hosts' dark matter halo. 
+within the hosts sphere of influence, roughly out to 1 Rvir. 
 
 Much of my time has been spent leading the design, data reduction, and
 analysis of a Keck/DEIMOS survey of low-mass galaxies in the vicinity of
-galaxy groups at intermediate redshift.
+galaxy groups at intermediate redshift (z~0.8).
 This study aims to pull together a spectroscopically complete catalog of 
-satellite galaxies down to log(Mstar) ~ 9.5 Msun around approximately 20 
+satellite galaxies down to log(Mstar) ~ 9.0 Msun around approximately 20 
 groups.
 This catalog will allow us to constrain the environmental quenching timescales
-in Magellanic Cloud-like satellites. Putting these measurements together with
-similar measurements in the nearby Universe will allow us to also constrain the 
-evolution in this quenching timescale, ultimately constraining the possible 
-physics responsible for shutting down star formation in these systems.
+in Magellanic Cloud-like satellites. Combining these measurements with similar 
+measurements in the SDSS (z~0) will allow us to also constrain the
+evolution in the environmental quenching timescales across roughly half of 
+cosmic time.
+These constraints will allow us to further constrain the physical mechanisms 
+responsible for shutting down star formation in satellite galaxies.
+
 Additionally, much of my published work to date has been putting together 
 a coherent model for environmental quenching around Milky Way-like hosts out
-to ~2 Rvir.
+to ~2 Rvir assuming the distribution of satellite galaxies around the Milky
+Way and M31 are a respresentative sample.
 
 Please don't hesitate to contact me with any questions or concerns you might 
 have regarding my work.
