@@ -37,7 +37,7 @@ of the Cluster Galaxy Population](http://adsabs.harvard.edu/abs/2018arXiv1803033
 - Foltz, R., Wilson, G., Muzzin, A., **et
   al.** (2018) ApJ under review
 
-_**[Environmental Quenching of Low-Mass Field Galaxies](http://adsabs.harvard.edu/abs/2018arXiv180203017F)**_
+_**[Environmental Quenching of Low-Mass Field Galaxies](http://adsabs.harvard.edu/doi/10.1093/mnras/sty958)**_
 - **Fillingham, S. P.**, Cooper, M. C., Boylan-Kolchin, M., et
   al. (2018) MNRAS accepted
 
