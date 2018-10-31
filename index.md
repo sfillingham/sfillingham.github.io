@@ -1,4 +1,5 @@
 
+### [CV](SPF_cv.pdf)
 
 ### About Me
 I am a finishing physics PhD candidate at UC Irvine (defense expected June 2019) 
@@ -60,7 +61,6 @@ low-mass satellite quenching with ELVIS](http://adsabs.harvard.edu/abs/2015MNRAS
 - **Fillingham, S. P.**, Cooper, M. C., Wheeler C., et al. (2015) MNRAS
 454 2039
 
-### [CV](SPF_cv.pdf)
 
 ### Contact
 Please email me with any questions, comments, concerns, or snide
