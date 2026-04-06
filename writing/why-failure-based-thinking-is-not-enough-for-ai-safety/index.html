@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why Failure-Based Thinking Is Not Enough for AI Safety — Sean P. Fillingham</title>
+    <meta name="description" content="Most AI safety analysis asks "what happens when the model fails?" But some of the most important risks emerge when no component has failed at all....">
+    <link rel="stylesheet" href="https://sfillingham.github.io/theme/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="https://sfillingham.github.io/" class="nav-name">Sean P. Fillingham</a>
+            <div class="nav-links">
+                <a href="https://sfillingham.github.io/about/">About</a>
+                <a href="https://sfillingham.github.io/research/">Research</a>
+                <a href="https://sfillingham.github.io/writing/">Writing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+<article class="article-page">
+    <header class="article-header">
+        <div class="container container-narrow">
+            <time datetime="2026-03-27T00:00:00-04:00">March 27, 2026</time>
+            <h1>Why Failure-Based Thinking Is Not Enough for AI Safety</h1>
+            <div class="post-tags">
+                <span class="tag">STAMP</span>
+                <span class="tag">systems-safety</span>
+                <span class="tag">AI-governance</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="article-body">
+        <div class="container container-narrow">
+            <p><em>This post is cross-posted from <a href="https://yoursubstack.substack.com">my Substack</a>. Subscribe there to get new posts in your inbox.</em></p>
+<hr>
+<p>Most conversations about AI safety start with a simple question: <em>what happens when the model gets it wrong?</em></p>
+<p>This is a reasonable place to start. Models hallucinate. They produce harmful outputs. They fail to follow instructions. Understanding and mitigating these failure modes is important work, and I don't want to suggest otherwise.</p>
+<p>But I want to argue that this framing — what I'll call <strong>failure-based thinking</strong> — is incomplete. And the gaps it leaves are precisely where some of the most consequential risks of frontier AI deployment live.</p>
+<h2>The Failure-Based Paradigm</h2>
+<p>The dominant approach to AI safety focuses on scenarios where something goes wrong with the model itself. The model is misaligned with human intent. The model produces an incorrect or harmful output. The model fails to generalize. The model is jailbroken.</p>
+<p>In each case, the analytical frame is: identify what can <em>fail</em>, estimate how likely and how bad the failure would be, and then mitigate it. This maps onto traditional risk assessment — hazard identification, probability estimation, consequence analysis.</p>
+<p>This paradigm has roots in reliability engineering, where safety is achieved by making components more reliable and adding redundancy. If the component doesn't fail, the system is safe.</p>
+<h2>Where It Falls Short</h2>
+<p>The problem is that in complex, tightly-coupled systems, <strong>accidents can occur without any component failure at all</strong>. This insight isn't new — it's the central thesis of systems safety engineering, developed over decades in aerospace, nuclear power, and medical devices.</p>
+<p>Consider an agentic AI system that is deployed to manage a workflow. Every individual component — the model, the tool-use layer, the permissions system, the human oversight mechanism — is functioning exactly as designed. No component has "failed." But the <em>interactions between these components</em>, under conditions the designers didn't fully anticipate, produce an outcome that is unsafe.</p>
+<p>This is not a model failure. It's a <strong>control structure failure</strong> — a breakdown in the constraints that are supposed to ensure safe behavior of the overall system.</p>
+<h2>A Different Lens: STAMP</h2>
+<p>The Systems-Theoretic Accident Model and Processes (STAMP), developed by Nancy Leveson at MIT, provides a framework for thinking about safety that doesn't start with failure. Instead, it starts with <strong>control</strong>.</p>
+<p>STAMP treats safety as a control problem. Systems are safe when adequate control is maintained over the processes that can lead to harm. Accidents occur when <strong>safety constraints are violated</strong> — and those violations can happen even when every individual component is working correctly.</p>
+<p>The associated analysis method, STPA (System-Theoretic Process Analysis), works by modeling the control structure of a system and then systematically identifying how unsafe control actions can occur. It asks questions like:</p>
+<ul>
+<li>What control actions could lead to a hazard if provided incorrectly?</li>
+<li>What happens if a control action is provided at the wrong time, in the wrong sequence, or for too long?</li>
+<li>What if a necessary control action is <em>not</em> provided at all?</li>
+</ul>
+<p>These questions are fundamentally different from "what if the model hallucinates?" — and they surface a different category of risk.</p>
+<h2>What This Means for Frontier AI</h2>
+<p>As AI systems become more agentic — making decisions, taking actions, operating in multi-step workflows — the deployment environment becomes the primary source of systemic risk. The model is one component in a larger system that includes human operators, organizational processes, technical infrastructure, and regulatory constraints.</p>
+<p>Failure-based analysis looks at the model. Systems-theoretic analysis looks at the <em>system</em> — and asks whether the control structure around that model is adequate to maintain safety under the conditions it will actually face.</p>
+<p>I'll be writing more about how STPA can be concretely applied to frontier AI systems in upcoming posts. If this perspective resonates, <a href="https://yoursubstack.substack.com">subscribe on Substack</a> to follow along.</p>
+        </div>
+    </div>
+
+    <footer class="article-footer">
+        <div class="container container-narrow">
+            <div class="substack-cta">
+                <p>Enjoyed this? Get future posts in your inbox.</p>
+                <a href="https://yoursubstack.substack.com" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on Substack</a>
+            </div>
+            <a href="https://sfillingham.github.io/writing/" class="back-link">&larr; All writing</a>
+        </div>
+    </footer>
+</article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; Sean P. Fillingham · Built with <a href="https://getpelican.com">Pelican</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('open');
+            this.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
