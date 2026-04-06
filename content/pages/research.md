@@ -6,23 +6,35 @@ Template: page
 
 My current work applies **systems-theoretic safety analysis** to the governance of frontier AI systems. I focus on:
 
-- **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify unsafe control actions and causal scenarios in systems where LLMs operate with increasing autonomy
+- **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in systems where LLMs operate with increasing autonomy
 - **Risk modeling beyond failure modes** — developing frameworks that account for emergent risks arising from component interactions, feedback loops, and inadequate control structures in AI deployment environments
-- **Bridging safety engineering and AI governance** — translating decades of systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for AI
+- **Bridging safety engineering and AI governance** — translating systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for AI
 
 ---
 
-## AI Governance Writing
+## Technical AI Governance Writing
 
-I publish regularly on these topics. See my [Writing](/writing/) page for articles and analysis, or [subscribe on Substack](https://yoursubstack.substack.com) for updates.
+I am starting to publish regularly on these topics. See my [Writing](/writing/) page for articles and analysis, or [subscribe on Substack](https://substack.com/@seanfillingham/) for updates.
 
 ---
 
 ## Previous Work: Astrophysics
 
-Prior to my work in AI governance, I studied **dwarf galaxy evolution** — specifically how the environment surrounding massive galaxies modifies the properties of orbiting satellite galaxies.
+Prior to my work in technical AI governance, I was an astrophysics researcher studying dwarf galaxy evolution, specifically how the environment surrounding massive galaxies modifies the properties of orbiting satellite galaxies.
 
-### First Author Publications
+### First and Second Author Publications
+
+<div class="pub-item">
+<h4><a href="https://arxiv.org/abs/2412.02766">The Importance of Gas Starvation in Driving Satellite Quenching in Galaxy Groups at z ~ 0.8</a></h4>
+<p class="pub-meta">Baxter, D. C., Fillingham, S. P., Coil, A. L., Cooper, M. C. (2025) ApJ 979, 41</p>
+<p>Presents results from a Keck/DEIMOS spectroscopic survey of 11 X-ray-selected galaxy groups in the Extended Groth Strip at z ~ 0.8. The spectroscopy extends over an order of magnitude deeper than existing DEEP2/DEEP3 data, enabling the first spectroscopic measurement of the satellite quiescent fraction down to stellar masses of ~10<sup>9.5</sup> M<sub>☉</sub> at this redshift. Quenching timescales derived from an infall-based model are consistent with starvation as the dominant quenching mechanism, and the evolution in these timescales between z ~ 1 and z ~ 0 tracks the dynamical time of the host halo, suggesting that the doubling of quenching timescales in groups over this interval reflects the dynamical evolution of the group environment itself.</p>
+</div>
+
+<div class="pub-item">
+<h4><a href="https://arxiv.org/abs/1906.04180">Characterizing the Infall Times and Quenching Timescales of Milky Way Satellites with Gaia Proper Motions</a></h4>
+<p class="pub-meta">Fillingham, S. P., Cooper, M. C., Kelley, T., Rodriguez Wimberly, M. K., Boylan-Kolchin, M., Bullock, J. S., Garrison-Kimmel, S., Pawlowski, M. S., Wheeler, C. (2019) arXiv:1906.04180</p>
+<p>Used Gaia DR2 proper motion measurements combined with the Phat ELVIS suite of cosmological zoom-in simulations to constrain infall times and quenching timescales for 37 Milky Way satellite galaxies on an object-by-object basis. Found that over 70% of the classical satellites are consistent with very short quenching timescales from prior statistical studies, while a subset show significantly longer timescales of 6–8 Gyr. These satellites are on more circular orbits with larger pericentric distances that likely experienced less ram-pressure stripping. Additionally found that six ultra-faint dwarfs with HST-based star-formation histories are consistent with quenching driven by reionization, prior to infall onto the Milky Way.</p>
+</div>
 
 <div class="pub-item">
 <h4><a href="http://adsabs.harvard.edu/abs/2018MNRAS.477.4491F">Environmental Quenching in the Field</a></h4>
