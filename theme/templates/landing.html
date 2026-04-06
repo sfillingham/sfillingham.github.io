@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <h1 class="hero-name">Sean P. Fillingham</h1>
+            <p class="hero-subtitle">{{ SITESUBTITLE }}</p>
+            <p class="hero-blurb">Applying systems-theoretic safety methods to frontier AI deployment. 
+            Previously an astrophysicist studying galaxy evolution.</p>
+            <div class="hero-links">
+                <a href="{{ SITEURL }}/about/" class="btn btn-primary">About Me</a>
+                <a href="{{ SITEURL }}/writing/" class="btn btn-secondary">Read My Writing</a>
+                {% if SUBSTACK_URL %}
+                <a href="{{ SUBSTACK_URL }}" class="btn btn-ghost" target="_blank" rel="noopener">Subscribe on Substack &rarr;</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-section">
+    <div class="container">
+        <h2 class="section-heading">Recent Writing</h2>
+        {% if articles %}
+        <div class="post-list">
+            {% for article in articles[:3] %}
+            <article class="post-card">
+                <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%B %d, %Y') }}</time>
+                <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+                {% if article.summary %}
+                <p>{{ article.summary }}</p>
+                {% endif %}
+                {% if article.tags %}
+                <div class="post-tags">
+                    {% for tag in article.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+        <a href="{{ SITEURL }}/writing/" class="section-link">All writing &rarr;</a>
+        {% else %}
+        <p class="muted">Posts coming soon. Subscribe on <a href="{{ SUBSTACK_URL }}">Substack</a> to get notified.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

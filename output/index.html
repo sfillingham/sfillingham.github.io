@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sean P. Fillingham</title>
+    <meta name="description" content="Sean P. Fillingham — Technical AI Governance, Systems Safety, STAMP/STPA for Frontier AI">
+    <link rel="stylesheet" href="./theme/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="./" class="nav-name">Sean P. Fillingham</a>
+            <div class="nav-links">
+                <a href="./about/">About</a>
+                <a href="./research/">Research</a>
+                <a href="./writing/">Writing</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <h1 class="hero-name">Sean P. Fillingham</h1>
+            <p class="hero-subtitle">Technical AI Governance · Systems Safety for Frontier AI</p>
+            <p class="hero-blurb">Applying systems-theoretic safety methods to frontier AI deployment. 
+            Previously an astrophysicist studying galaxy evolution.</p>
+            <div class="hero-links">
+                <a href="./about/" class="btn btn-primary">About Me</a>
+                <a href="./writing/" class="btn btn-secondary">Read My Writing</a>
+                <a href="https://yoursubstack.substack.com" class="btn btn-ghost" target="_blank" rel="noopener">Subscribe on Substack &rarr;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-section">
+    <div class="container">
+        <h2 class="section-heading">Recent Writing</h2>
+        <div class="post-list">
+            <article class="post-card">
+                <time datetime="2026-03-27T00:00:00-04:00">March 27, 2026</time>
+                <h3><a href="./writing/why-failure-based-thinking-is-not-enough-for-ai-safety/">Why Failure-Based Thinking Is Not Enough for AI Safety</a></h3>
+                <p><p>Most AI safety analysis asks "what happens when the model fails?" But some of the most important risks emerge when no component has failed at all. Systems-theoretic approaches offer a more complete lens.</p></p>
+                <div class="post-tags">
+                    <span class="tag">STAMP</span>
+                    <span class="tag">systems-safety</span>
+                    <span class="tag">AI-governance</span>
+                </div>
+            </article>
+        </div>
+        <a href="./writing/" class="section-link">All writing &rarr;</a>
+    </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; Sean P. Fillingham · Built with <a href="https://getpelican.com">Pelican</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('open');
+            this.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} — {{ SITENAME }}{% endblock %}
+{% block description %}{{ article.summary|striptags|truncate(160) }}{% endblock %}
+
+{% block content %}
+<article class="article-page">
+    <header class="article-header">
+        <div class="container container-narrow">
+            <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%B %d, %Y') }}</time>
+            <h1>{{ article.title }}</h1>
+            {% if article.subtitle %}
+            <p class="article-subtitle">{{ article.subtitle }}</p>
+            {% endif %}
+            {% if article.tags %}
+            <div class="post-tags">
+                {% for tag in article.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="article-body">
+        <div class="container container-narrow">
+            {{ article.content }}
+        </div>
+    </div>
+
+    <footer class="article-footer">
+        <div class="container container-narrow">
+            <div class="substack-cta">
+                <p>Enjoyed this? Get future posts in your inbox.</p>
+                <a href="{{ SUBSTACK_URL }}" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on Substack</a>
+            </div>
+            <a href="{{ SITEURL }}/writing/" class="back-link">&larr; All writing</a>
+        </div>
+    </footer>
+</article>
+{% endblock %}
