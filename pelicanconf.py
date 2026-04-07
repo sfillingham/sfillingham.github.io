@@ -51,4 +51,4 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # Substack URL (used in templates)
-SUBSTACK_URL = 'https://yoursubstack.substack.com'
+SUBSTACK_URL = 'https://substack.com/@seanfillingham'
