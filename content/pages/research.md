@@ -6,15 +6,28 @@ Template: page
 
 My current work applies **systems-theoretic safety analysis** to the governance of frontier AI systems. I focus on:
 
-- **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in systems where LLMs operate with increasing autonomy
-- **Risk modeling beyond failure modes** — developing frameworks that account for emergent risks arising from component interactions, feedback loops, and inadequate control structures in AI deployment environments
-- **Bridging safety engineering and AI governance** — translating systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for AI
+- **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in sociotechnical systems where advanced AI operates with increasing autonomy.
+- **Risk characterization beyond linear failure modes** — applying frameworks that account for emergent risks arising from component interactions, feedback loops, and inadequate control structures in AI deployment environments.
+- **Bridging safety engineering and AI governance** — translating systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for advanced AI.
 
 ### Related Publications
 <div class="pub-item">
+<h4><a href="https://arxiv.org/abs/2606.13474">Exploring Systems-Thinking Approaches to Loss of Control Risk</a></h4>
+<p class="pub-meta">Carlucci, A., Fillingham, S. P., Walpole, J., Kryś, J. (2026) arXiv:2606.13474</p>
+<p>Examines internal-deployment loss of control in agentic AI systems for coding and research, defined as the inability to reliably constrain, audit, reverse, or halt AI-mediated changes to code, infrastructure, evaluation, or deployment processes in time to prevent serious harm. Applies STECA, STPA, and FRAM to a reconstructed frontier-lab coding-agent scenario to test whether systems-safety methods surface risks that model-level evaluations miss, finding that governance responsibilities can be externally unverifiable, monitoring delays can undermine otherwise valid control actions, and routine operational variability can erode safeguard calibration and independence over time.</p>
+</div>
+
+<div class="pub-item">
+<h4><a href="https://arxiv.org/abs/2604.21964">Lessons from External Review of DeepMind's Scheming Inability Safety Case</a></h4>
+<p class="pub-meta">Barrett, S., Campos Zabala, F. J., Fillingham, S. P., Siddique, U., Walpole, J., Bloomfield, R., Papadatos, H. (2026) arXiv:2604.21964</p>
+<p>Applies the Assurance 2.0 framework to conduct an independent external review of Google DeepMind's public scheming inability safety case, motivated by the risk that developer-authored safety cases are vulnerable to confirmation bias and conflicted incentives. Surfaces substantive new concerns that materially affect the scope and decision-relevance of the safety case, and distills concrete recommendations for how external review should be structured and what information AI developers should provide to support it.</p>
+</div>
+
+
+<div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2512.17600">STAMP/STPA Informed Characterization of Factors Leading to Loss of Control in AI Systems</a></h4>
 <p class="pub-meta">Barrett, S., Bruvere, A., Fillingham, S. P., Rhodes, C., Vergani, S. (2025) arXiv:2512.17600</p>
-<p>Developed a structured framework for characterizing loss of control in AI systems using STAMP and its associated hazard analysis technique STPA. Addresses the wide range of loss-of-control concerns — from rapid self-exfiltration scenarios to gradual disempowerment — by grounding them in control-theoretic analysis of socio-technical systems. The framework provides AI-specific prompts and a systematic methodology for identifying causal factors and pathways by which loss of control can manifest, moving beyond component-based accident models to consider hazards arising from interactions between system components, governance structures, and organizational processes.</p>
+<p>Developed a framework for characterizing loss of control in AI systems using STAMP and its associated hazard analysis technique STPA. Addresses the wide range of loss-of-control concerns, from rapid self-exfiltration scenarios to gradual disempowerment, by grounding them in control-theoretic analysis of sociotechnical systems.</p>
 </div>
 
 ---
@@ -24,7 +37,7 @@ My current work applies **systems-theoretic safety analysis** to the governance 
 <div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2511.07572">SCALAR: Benchmarking SAE Interaction Sparsity in Toy LLMs</a></h4>
 <p class="pub-meta">Fillingham, S. P., Gordon, A., Lai, P., Poncini, X., Quarel, D., Heimersheim, S. (2025) arXiv:2511.07572</p>
-<p>Introduced SCALAR (Sparse Connectivity Assessment of Latent Activation Relationships), a benchmark for measuring interaction sparsity between sparse autoencoder (SAE) features across layers in language models. Standard SAEs trained in isolation don't encourage sparse cross-layer connections, inflating the circuits extracted during mechanistic interpretability work. Also proposed "Staircase SAEs," which use weight-sharing to limit upstream feature duplication across downstream features, improving relative interaction sparsity over standard TopK SAEs by roughly 60% in both feedforward and transformer block settings.</p>
+<p>Introduced SCALAR (Sparse Connectivity Assessment of Latent Activation Relationships), a benchmark for measuring interaction sparsity between sparse autoencoder (SAE) features across layers in language models. Also proposed "Staircase SAEs," which use weight-sharing to limit upstream feature duplication across downstream features, improving relative interaction sparsity over standard TopK SAEs by roughly 60% in both feedforward and transformer block settings.</p>
 </div>
 
 ---
