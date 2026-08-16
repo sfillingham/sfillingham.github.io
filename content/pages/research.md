@@ -4,7 +4,7 @@ Template: page
 
 ## Current Research
 
-My current work applies **systems-theoretic safety analysis** to the governance of frontier AI systems. I focus on:
+My current work applies **systems-theoretic safety methods** to the governance of advanced AI systems. I focus on:
 
 - **Post hoc Loss-of-Control Incident Analysis** — using STAMP/CAST to analyze recent loss of control incidents in order to identify a more complete picture of potential mitigations and system improvements throughout the hierarchical control structure.
 - **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in sociotechnical systems where advanced AI operates with increasing autonomy.
