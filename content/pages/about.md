@@ -4,15 +4,15 @@ Template: page
 
 I'm a researcher focused on **technical AI governance**, with a particular interest in applying systems-theoretic safety methods to the challenge of deploying frontier AI systems responsibly.
 
-My current work centers on **STAMP/STPA** (Systems-Theoretic Accident Model and Processes / System-Theoretic Process Analysis) and how these frameworks can surface categories of risk that conventional failure-based analysis tends to miss. Most AI safety analysis focuses on what happens when a model produces an error or acts contrary to its intended objectives. That work is essential, but it's incomplete. Unsafe behavior can emerge from the *interactions between components* in a deployment system even when no individual component has failed. Understanding and governing those systemic risks is what I'm focused on.
+My current work centers on **STAMP/STPA** (Systems-Theoretic Accident Model and Processes / System-Theoretic Process Analysis) and how these frameworks can surface categories of risk that conventional failure-based analysis tends to miss. Most AI safety analysis focuses on what happens when a model produces an error or acts contrary to its intended objectives. That work is essential, but it's incomplete. Unsafe behavior can emerge from the *interactions between components* in a deployment system even when no individual component has failed. Understanding and governing those systemic risks is what I am currently focused on.
 
-I am starting to write regularly about systems thinking, hazard analysis, and risk assessment as they apply to frontier AI, particularly agentic systems. You can find my writing on this site and on [my Substack](https://substack.com/@seanfillingham/).
+I am starting to write more regularly about systems thinking, hazard analysis, and risk characterization as they apply to advanced AI, particularly agentic systems. You can find my writing on this site and on [my Substack](https://substack.com/@seanfillingham/).
 
 ## Background
 
-Before moving into AI governance, I was an astrophysicist studying galaxy evolution. I earned my PhD at UC Irvine, where I worked with Prof. Michael Cooper on environmental quenching mechanisms in dwarf satellite galaxies. I then did postdoctoral research at the University of Washington with Prof. Sarah Tuttle.
+Before moving into AI governance, I was an astrophysicist studying galaxy evolution. I earned my PhD in physics at UC Irvine, where I worked with Prof. Michael Cooper on environmental quenching mechanisms in dwarf satellite galaxies. I then did postdoctoral research at the University of Washington with Prof. Sarah Tuttle measuring the cold gas content in nearby galaxies with radio telescopes.
 
-That background gave me experience in quantitative modeling, working with complex interacting systems, and constructing explanations for emergent behavior. These skills translate directly to the systems safety problems I work on now.
+This background gave me experience in quantitative modeling, working with complex interacting systems, and constructing explanations for emergent behavior. These skills translate directly to the systems safety problems I work on now.
 
 ## Get in Touch
 
