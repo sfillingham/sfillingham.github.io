@@ -6,6 +6,7 @@ Template: page
 
 My current work applies **systems-theoretic safety analysis** to the governance of frontier AI systems. I focus on:
 
+- **Post hoc Loss-of-Control Incident Analysis** — using STAMP/CAST to analyze recent loss of control incidents in order to identify a more complete picture of potential mitigations and system improvements throughout the hierarchical control structure.
 - **Hazard analysis for agentic AI deployments** — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in sociotechnical systems where advanced AI operates with increasing autonomy.
 - **Risk characterization beyond linear failure modes** — applying frameworks that account for emergent risks arising from component interactions, feedback loops, and inadequate control structures in AI deployment environments.
 - **Bridging safety engineering and AI governance** — translating systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for advanced AI.
