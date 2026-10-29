@@ -36,10 +36,10 @@
 <section class="page-body">
     <div class="container container-narrow">
         <h2>Current Research</h2>
-<p>My current work applies <strong>systems-theoretic safety methods</strong> to the governance of advanced AI systems. I focus on:</p>
+<p>My current work applies <strong>systems-thinking based safety methodologies</strong> to the governance of advanced AI systems. I focus on:</p>
 <ul>
-<li><strong>Post hoc Loss-of-Control Incident Analysis</strong> — using STAMP/CAST to analyze recent loss of control incidents in order to identify a more complete picture of potential mitigations and system improvements throughout the hierarchical control structure.</li>
-<li><strong>Hazard analysis for agentic AI deployments</strong> — using STAMP/STPA to identify hazardous systems states, causal factors, and loss scenarios in sociotechnical systems where advanced AI operates with increasing autonomy.</li>
+<li><strong>Loss-of-Control Incident Analysis</strong> — using Causal Analysis based on Systems Theory (CAST) to analyze recent loss of control incidents in order to identify a more complete picture of potential mitigations and system improvements throughout the hierarchical control structure.</li>
+<li><strong>Hazard analysis for agentic AI deployments</strong> — using Systems-Theoretic Process Analysis (STPA) to identify hazardous systems states, causal factors, and loss scenarios in sociotechnical systems where advanced AI operates with increasing autonomy.</li>
 <li><strong>Risk characterization beyond linear failure modes</strong> — applying frameworks that account for emergent risks arising from component interactions, feedback loops, and inadequate control structures in AI deployment environments.</li>
 <li><strong>Bridging safety engineering and AI governance</strong> — translating systems safety methodology (from aerospace, nuclear, and medical domains) into actionable governance approaches for advanced AI.</li>
 </ul>
@@ -47,32 +47,38 @@
 <div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2606.13474">Exploring Systems-Thinking Approaches to Loss of Control Risk</a></h4>
 <p class="pub-meta">Carlucci, A., Fillingham, S. P., Walpole, J., Kryś, J. (2026) arXiv:2606.13474</p>
-<p>Examines internal-deployment loss of control in agentic AI systems for coding and research, defined as the inability to reliably constrain, audit, reverse, or halt AI-mediated changes to code, infrastructure, evaluation, or deployment processes in time to prevent serious harm. Applies STECA, STPA, and FRAM to a reconstructed frontier-lab coding-agent scenario to test whether systems-safety methods surface risks that model-level evaluations miss, finding that governance responsibilities can be externally unverifiable, monitoring delays can undermine otherwise valid control actions, and routine operational variability can erode safeguard calibration and independence over time.</p>
+<p>This work examines loss-of-control risk during internal-deployment of agentic AI systems when conducting coding and research tasks. We define loss of control as the inability to reliably constrain, audit, reverse, or halt AI-mediated changes to code, infrastructure, evaluation, or deployment processes in time to prevent serious harm. We apply STECA, STPA, and FRAM to an abstracted frontier-lab coding-agent scenario to test whether systems-safety methods surface risks that model-level evaluations miss. We find that governance responsibilities can be externally unverifiable, monitoring delays can undermine otherwise valid control actions, and routine operational variability can erode safeguard calibration and independence over time.</p>
 </div>
 
 <div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2604.21964">Lessons from External Review of DeepMind's Scheming Inability Safety Case</a></h4>
 <p class="pub-meta">Barrett, S., Campos Zabala, F. J., Fillingham, S. P., Siddique, U., Walpole, J., Bloomfield, R., Papadatos, H. (2026) arXiv:2604.21964</p>
-<p>Applies the Assurance 2.0 framework to conduct an independent external review of Google DeepMind's public scheming inability safety case, motivated by the risk that developer-authored safety cases are vulnerable to confirmation bias and conflicted incentives. Surfaces substantive new concerns that materially affect the scope and decision-relevance of the safety case, and distills concrete recommendations for how external review should be structured and what information AI developers should provide to support it.</p>
+<p>This work applies the Assurance 2.0 framework to conduct an independent external review of Google DeepMind's public scheming inability safety case, motivated by the concern that developer-authored safety cases are vulnerable to confirmation bias and conflicted incentives. We surface substantive new concerns that materially affect the scope and decision-relevance of the safety case, and distill concrete recommendations for how external review should be structured and what information AI developers should provide to support it.</p>
 </div>
 
 <div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2512.17600">STAMP/STPA Informed Characterization of Factors Leading to Loss of Control in AI Systems</a></h4>
 <p class="pub-meta">Barrett, S., Bruvere, A., Fillingham, S. P., Rhodes, C., Vergani, S. (2025) arXiv:2512.17600</p>
-<p>Developed a framework for characterizing loss of control in AI systems using STAMP and its associated hazard analysis technique STPA. Addresses the wide range of loss-of-control concerns, from rapid self-exfiltration scenarios to gradual disempowerment, by grounding them in control-theoretic analysis of sociotechnical systems.</p>
+<p>This work developed a framework for characterizing loss of control in AI systems inspired by STAMP and its associated hazard analysis technique STPA. We address a range of loss-of-control concerns, from rapid self-exfiltration scenarios to gradual disempowerment, by grounding them in control-theoretic analysis of sociotechnical systems.</p>
 </div>
 
 <hr>
 <h2>Other AI Safety Research</h2>
 <div class="pub-item">
+<h4><a href="https://arxiv.org/abs/2609.03178">Open Problems in AI Risk Modeling: Insights from a Workshop on the Technical Foundations of AI Risk Modeling</a></h4>
+<p class="pub-meta">Jackson, K., Raman, D., Kryś, J., Fillingham, S. P., Kengott, J., Lohn, A. J., Madkour, N., Papadatos, H., Sykes, J., Wisakanto, A. K., Murray, M. (2026) arXiv:2609.03178</p>
+<p>This work examines some of the challenges to buildling robust risk models of advanced AI systems. We identify methodological and institutional barriers to adoption and reviews five research traditions: probabilistic risk assessment, catastrophic AI risk analysis, cybersecurity risk quantification, Bayesian causal inference, and threshold-based governance. This also contrasts scenario-based risk estimation with threshold setting based on Bayesian networks. Drawing on a 22-expert workshop and follow-up analysis, we set out open questions about model structure, scope, evidence integration, validation, and governance. We conclude that progress depends on pairing quantitative modeling with independent evaluation, tiered disclosure, and institutions that can maintain risk models over time.</p>
+</div>
+
+<div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2511.07572">SCALAR: Benchmarking SAE Interaction Sparsity in Toy LLMs</a></h4>
 <p class="pub-meta">Fillingham, S. P., Gordon, A., Lai, P., Poncini, X., Quarel, D., Heimersheim, S. (2025) arXiv:2511.07572</p>
-<p>Introduced SCALAR (Sparse Connectivity Assessment of Latent Activation Relationships), a benchmark for measuring interaction sparsity between sparse autoencoder (SAE) features across layers in language models. Also proposed "Staircase SAEs," which use weight-sharing to limit upstream feature duplication across downstream features, improving relative interaction sparsity over standard TopK SAEs by roughly 60% in both feedforward and transformer block settings.</p>
+<p>This work introduced SCALAR (Sparse Connectivity Assessment of Latent Activation Relationships), a benchmark for measuring interaction sparsity between sparse autoencoder (SAE) features across layers in language models. We also propose "Staircase SAEs," which use weight-sharing to limit upstream feature duplication across downstream features, improving relative interaction sparsity over standard TopK SAEs by roughly 60% in both feedforward and transformer block settings.</p>
 </div>
 
 <hr>
 <h2>Previous Astrophysics Research</h2>
-<p>Prior to my work in technical AI governance, I was an astrophysics researcher studying dwarf galaxy evolution, specifically how the environment surrounding massive galaxies modifies the properties of orbiting satellite galaxies.</p>
+<p>Prior to my work in technical AI governance, I was an astrophysics researcher studying dwarf galaxy evolution, focusing on how the environment surrounding massive galaxies modifies the properties of orbiting satellite galaxies.</p>
 <h3>First and Second Author Publications</h3>
 <div class="pub-item">
 <h4><a href="https://arxiv.org/abs/2412.02766">The Importance of Gas Starvation in Driving Satellite Quenching in Galaxy Groups at z ~ 0.8</a></h4>
